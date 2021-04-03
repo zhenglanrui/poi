@@ -7,11 +7,11 @@ on:
     types: [started]
     
 env:              
-  ROM_URL: https://dl.google.com/developers/android/sc/images/ota/redfin-ota-spp2.210219.008-3d61e529.zip
-  ZIP_NAME: test.zip
-  OS_TYPE: Pixel
+  ROM_URL: http://sysupwrdl.vivo.com.cn/upgrade/official/officialFiles/PD1805_A_7.12.1-update-full_1588750922.zip
+  ZIP_NAME: PD1805_A_7.12.1-update-full_1588750922.zip
+  OS_TYPE: funtouchos
   BUILD_TYPE: 'ab'
-  REPACK_NAME: test_action.zip
+  REPACK_NAME: PD1805_action.zip
   VERSION: 12
   upload_WeTransfer: 'true'
   upload_action-gh-release: 'false'
